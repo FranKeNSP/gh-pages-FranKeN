@@ -1,0 +1,119 @@
+#navbar{
+    background-color: #fff;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 63px;
+    margin: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#navbar img{
+    height: 63px;
+}
+
+/* #menuMain{
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+    margin-top: 20px;
+    margin-left: 10px
+}
+
+#menu1{
+    background-color: #070052;
+    width: 45px;
+    height: 4px;
+}
+
+#menu2{
+    width: 45px;
+    height: 4px;
+    margin-top: 6px;
+    background-color: #070052;
+}
+
+#menu3{
+    width: 45px;
+    height: 4px;
+    margin-top: 6px;
+    background-color: #070052;
+}
+
+#menuMain div{
+    transition: 250ms ease;
+}
+
+#menuMain:hover #menu1{
+    transform: translateX(calc(-10% + 3px)) rotate(45deg) translateY(14px);
+}
+
+#menuMain:hover #menu2{
+    background-color: #fff;
+}
+
+#menuMain:hover #menu3{
+    transform: translateX(calc(-10% + 3px)) rotate(-45deg) translateY(-14px);
+} */
+
+#loginRegister{
+    display: flex;
+    flex-direction: row;
+    margin-right: -650px;
+}
+
+#login a{
+    text-decoration: none;
+    color: #070052;
+    width: 76px;
+    height: 63px;
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#login:hover a{
+    transition: 250ms;
+    color: #8A8A8A;
+}
+
+#register{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+#register a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #070052;
+    border-radius: 15px;
+    width: 127px;
+    height: 45px;
+    font-family: Poppins;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+#register:hover a{
+    transition: 250ms;
+    color: #8A8A8A;
+}
+
+#nightMode img{
+    margin-top: 15px;
+    /* margin-right: 10px; */
+    margin-left: -65px;
+    height: 30px;
+}

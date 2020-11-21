@@ -1,0 +1,163 @@
+body{
+    background-color: #e7e7e7;
+}
+
+#loginBox{
+    background-color: #fff;
+
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
+
+    width: 364px;
+    height: 810px;
+}
+
+#loginBox h2{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 48px;
+
+    color: #070052;
+
+    text-decoration: none;
+}
+
+#loginBox h3{
+    display: flex;
+    justify-content: left;
+    margin-left: 32px;
+
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 18px;
+
+    color: #070052;
+
+    text-decoration: none;
+}
+
+
+#loginBox #email, #pass{
+    background-color: #e7e7e7;
+    
+    display: flex;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 300px;
+    height: 63px;
+    
+    border: none;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
+
+    color: #070052;
+
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 300;
+    
+}
+
+/* .email:focus-within::after{
+    width: 280px;
+    height: 2px;
+    content: "";
+    background: red;
+    position: absolute;
+    left: 800px;
+    bottom: 0.7rem;
+} */
+
+#loginBox .email{
+    margin-top: 75px;
+}
+
+#loginBox .password{
+    margin-top: 75px;
+}
+
+#loginBox .forget, .newacc{
+    display: flex;
+    justify-content: left;
+    margin-left: 32px;
+    margin-top: 15px;
+    margin-right: 150px;
+
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 13px;
+
+    color: #8A8A8A;
+}
+
+#loginBox .forget:hover{
+    transition: 250ms;
+    color: #222;
+}
+
+#loginBox .forget{
+    margin-top: 20px;
+}
+
+#loginBox .newacc:hover{
+    transition: 250ms;
+    color: #222;
+}
+
+#loginBox .newacc{
+    margin-bottom: 152px
+}
+
+
+#loginBox #enter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-color: #070052;
+    
+    border-radius: 10px;
+    
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.35);
+    
+    width: 300px;
+    height: 80px;
+
+}
+
+#loginBox #enter:hover{
+    transition: 350ms;
+    background-color: #e7e7e7;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.60);
+    /* width: 310px;
+    height: 90px; */
+}
+
+#loginBox #enter a{
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 48px;
+    
+    text-decoration: none;
+    
+    color: #fff;
+}
+
+#loginBox #enter:hover a{
+    transition: 350ms;
+    color: #070052;
+}

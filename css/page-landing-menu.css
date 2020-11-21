@@ -1,0 +1,34 @@
+
+#menu{
+    display: flex;
+    margin-top: 63px;
+    width: 391px;
+    height: auto;
+    color: #8A8A8A;
+    background-color: #e7e7e7;
+    box-shadow: 0 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#menu a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-decoration: none;
+    color: #8A8A8A;
+    margin-left: 20px;
+    font: 300 34px Poppins;
+    padding: 10px 10px;
+}
+
+#menu a:hover{
+    transition: 250ms;
+    color:  #070052;
+}
+
+#menu p{
+    display: flex;
+    text-align: center;
+    margin-left: 20px;
+    font: 300 14px Poppins;
+
+}
